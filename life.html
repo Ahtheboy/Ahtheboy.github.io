@@ -1,5 +1,3 @@
-<canvas id="mycanvas" width="512" height="512" onclick="flipcell()">
-</canvas>
 <script>
 function creategrid() {
     var grid = new Array(128);
@@ -127,3 +125,11 @@ function flipcell() {
 ctx.fillRect(20, 20, 4, 4);
 </script>
 <button onclick="handlerstart();"></button>
+<html>
+<br>
+<body>
+Click the button to the left of the canvas to start/stop the simulation.
+Press anywhere on the canvas to toggle the status of a cell when stopped or when the
+simulation is running.
+</body>
+</html>
